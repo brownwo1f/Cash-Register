@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background: #0a0a23;
+}
+.container{
+    width: 600px;
+    height: 650px;
+    margin: 30px auto;
+    background-image: url("https://img.freepik.com/free-photo/wooden-textured-background_53876-14865.jpg?size=626&ext=jpg&ga=GA1.1.87170709.1707609600&semt=ais");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly ;
+    border-radius: 20px;
+}
+#bigText{
+    color: #fff;
+    text-shadow:#FC0 1px 0 10px;
+}
+.cash-register{
+    width: 60%;
+    height: 70%;
+    background: linear-gradient(180deg, #aaaaaa, #454545);
+    box-shadow: 0 30px 40px 10px #000;
+    border-radius: 20px;
+    border: 2px ridge #ddd;
+}
+.screen{
+    width: 80%;
+    height: 15%;
+    background: linear-gradient(180deg, #000,#4a4a4a);
+    border: 2px ridge #ddd;
+    margin: 40px auto;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 2px 2px 0 #4a4a4a;
+}
+.info-div{
+    width: 80%;
+    height: 60%;
+    border: 2px ridge #ddd;
+    margin: 25px auto;
+    box-shadow: 0 5px 2px 0 #4a4a4a;
+}
+#cash{
+    width: 70%;
+    height: 10%;
+    border: 2px solid black;
+    font-size: 12px;
+    padding: 5px;
+}
+#purchase-btn{
+    width: 28%;
+    height:10%;
+    border: 2px solid black;
+    background: linear-gradient(180deg, #aaaaaa, #454545);
+    cursor: pointer;
+}
+.internal{
+    width:100%;
+    height: 100%;
+    display: flex;
+}
+#info, #change-due{
+    width:50%;
+    height:90%;
+    background: #ddd;
+    border: 1px solid black;
+    font-size: 13px;
+    padding: 3px;
+}
