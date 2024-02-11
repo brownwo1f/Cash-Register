@@ -30,15 +30,18 @@ body{
     border-radius: 20px;
     border: 2px ridge #ddd;
 }
-.screen{
+#screen{
     width: 80%;
     height: 15%;
     background: linear-gradient(180deg, #000,#4a4a4a);
     border: 2px ridge #ddd;
     margin: 40px auto;
     color: #fff;
-    text-align: center;
+    font-size: 20px;
     box-shadow: 0 2px 2px 0 #4a4a4a;
+    display: flex;
+    gap: 2px;
+    padding: 20px;
 }
 .info-div{
     width: 80%;
@@ -71,6 +74,10 @@ body{
     height:90%;
     background: #ddd;
     border: 1px solid black;
-    font-size: 13px;
+    font-size: 15px;
     padding: 3px;
+}
+p {
+    word-break:break-all;
+    white-space:normal;
 }
