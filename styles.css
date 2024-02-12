@@ -63,6 +63,7 @@ body{
     border: 2px solid black;
     background: linear-gradient(180deg, #aaaaaa, #454545);
     cursor: pointer;
+    font-weight: 600;
 }
 .internal{
     width:100%;
@@ -74,10 +75,14 @@ body{
     height:90%;
     background: #ddd;
     border: 1px solid black;
-    font-size: 15px;
+    font-size: 12px;
     padding: 3px;
+}
+h5{
+    margin: 4px;
 }
 p {
     word-break:break-all;
     white-space:normal;
+    padding: 3px;
 }
